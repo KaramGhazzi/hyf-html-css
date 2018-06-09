@@ -1,0 +1,97 @@
+        body {
+            background-image: url(img/Background.gif);
+            background-position: center;
+            background-size: cover;
+            font-size: 20px;
+        }
+        
+        .personalcv {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 50px;
+        }
+        
+        .karamimg {
+            margin: 0px 30px 0px 250px;
+            box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.63);
+            border: 5px ridge rgb(0, 0, 0);
+        }
+        
+        .imgp {
+            width: 1000px;
+            margin-left: 100px;
+            text-align: center;
+        }
+        
+        .header {
+            margin: 10px 150px 10px 150px;
+            border-bottom: 3px dotted rgb(0, 0, 0);
+            padding: 0px 0px 80px 0px;
+        }
+        
+        .one {
+            float: right;
+            margin-right: 250px;
+            width: 300px;
+            height: 100px;
+            line-height: 2.1em;
+        }
+        
+        ul {
+            margin-left: 100px;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        .werkervaring {
+            margin-left: 150px;
+            margin-right: 150px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            height: 500px;
+            background-color: rgba(255, 240, 172, 0.425);
+            padding-left: 20px;
+        }
+        
+        .tab {
+            margin-left: 150px;
+            width: 81%;
+            height: 300px;
+            background-color: rgba(255, 240, 172, 0.425);
+            padding-left: 20px;
+        }
+        
+        .ervaring {
+            text-align: center;
+        }
+        
+        .werkervaring ul {
+            margin-left: 50px;
+        }
+        
+        .centerp {
+            text-align: center;
+        }
+        
+        .fot {
+            background-color: rgb(255, 240, 172, 0.425);
+            margin-left: 200px;
+            padding: 10px;
+        }
+        
+        .foter {
+            margin-right: 200px;
+            background-color: rgb(255, 240, 172, 0.425);
+            padding: 10px;
+        }
+        
+        .video {
+            text-align: center;
+            background-color: rgba(255, 240, 172, 0.425);
+            margin-left: 500px;
+            margin-right: 600px;
+            padding: 5px;
+        }
