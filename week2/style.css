@@ -162,9 +162,6 @@ ul#grid-floats li {
     }
 }
 
-
-/* mobile screen */
-
 @media only screen and (max-width:400px) {
     #grid-flex .grid-item:nth-child(1) {
         margin: 0.5em;
