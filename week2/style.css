@@ -224,14 +224,14 @@ h1 {
 h3:hover {
     background-color: rgb(0, 131, 44);
     position: relative;
-    -webkit-animation-name: example;
+    -webkit-animation-name: karam;
     -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: 10;
     animation-duration: 1s;
     animation-iteration-count: repeat;
 }
 
-@-webkit-keyframes example {
+@-webkit-keyframes karam {
     0% {
         background-color: rgb(0, 255, 106);
         left: 0%;
