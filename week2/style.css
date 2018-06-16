@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    background-color: rgba(3, 3, 75, 0.897);
+    color: aliceblue;
+    padding: 15px;
+}
+
+h1 h2 {
+    clear: both;
+}
+
+h1 {
+    background-color: rgb(23, 185, 77);
+    padding: 20px;
+    color: rgb(3, 29, 78);
+}
+
+h3 {
+    clip-path: circle(70%);
+    background-color: #15ff005b;
+    padding: 8px;
+    color: rgb(3, 29, 78);
+}
+
+p {
+    background-color: rgb(23, 185, 77);
+    padding: 3px;
+    color: rgba(3, 3, 75, 0.897);
+}
+
+img {
+    width: 100%;
+    margin: 0px;
+}
+
+.grid-item {
+    border: 1px double rgb(23, 185, 77);
+    padding: 10px;
+    margin: 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#grid-floats .grid-item {
+    max-height: 410px;
+    width: calc(23.9% - 1em);
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#grid-floats .grid-item:nth-child(1) {
+    width: calc(48.1% - 2em);
+    text-align: center;
+}
+
+#grid-floats {
+    overflow: auto;
+    padding: 0px;
+    width: 100%;
+    margin: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+ul#grid-floats li {
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    left: 20px;
+}
+
+@media only screen and (max-width:1000px) {
+    #grid-floats .grid-item:nth-child(1) {
+        margin: 0.5em;
+        width: calc(44% - 1em);
+    }
+    #grid-floats .grid-item {
+        margin: 0.5em;
+        width: calc(44% - 1em);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #grid-floats .grid-item:nth-child(2) {
+        margin: 0.5em;
+        width: calc(45% - 1em);
+    }
+    #grid-floats .grid-item:nth-child(1) {
+        margin: 0.5em;
+        width: calc(45% - 1em);
+    }
+    #grid-floats .grid-item {
+        margin: 0.5em;
+        width: calc(30% - 1em);
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #grid-floats .grid-item:nth-child(1) {
+        margin: 0.5em;
+        width: calc(90% - 1em);
+    }
+    #grid-floats .grid-item {
+        margin: 0.5em;
+        width: calc(44% - 1em);
+    }
+}
+
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#grid-flex .grid-item {
+    margin: 2px;
+    width: calc(23% - 1em);
+    max-height: 425px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#grid-flex .grid-item:nth-child(1) {
+    width: calc(46.8% - 1em);
+}
+
+@media only screen and (max-width:1000px) {
+    #grid-flex .grid-item:nth-child(1) {
+        width: calc(47.5% - 1em);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #grid-flex .grid-item:nth-child(1) {
+        margin: 0.5em;
+        width: calc(43.5% - 1em);
+    }
+    #grid-flex .grid-item:nth-child(2) {
+        margin: 0.5em;
+        width: calc(42.5% - 1em);
+    }
+    #grid-flex .grid-item {
+        margin: 0.5em;
+        width: calc(27% - 1em);
+    }
+}
+
+
+/* mobile screen */
+
+@media only screen and (max-width:400px) {
+    #grid-flex .grid-item:nth-child(1) {
+        margin: 0.5em;
+        width: calc(87% - 1em);
+    }
+    #grid-flex .grid-item:nth-child(2) {
+        margin: 0.5em;
+        width: calc(40% - 1em);
+    }
+    #grid-flex .grid-item {
+        margin: 0.5em;
+        width: calc(40% - 1em);
+    }
+}
+
+h1 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 131, 44);
+    position: relative;
+    -webkit-animation-name: karam;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 10;
+    animation-duration: 1s;
+    animation-iteration-count: 20;
+}
+
+@-webkit-keyframes karam {
+    0% {
+        background-color: rgb(0, 255, 106);
+        left: 0%;
+        top: 0%;
+    }
+    25% {
+        background-color: rgb(0, 255, 106);
+        left: 0%;
+        top: 0%;
+    }
+    50% {
+        background-color: rgb(7, 255, 90);
+        left: 0%;
+        top: 10%;
+    }
+    75% {
+        background-color: rgb(0, 248, 62);
+        left: 0%;
+        top: 0%;
+    }
+    100% {
+        background-color: rgb(0, 228, 133);
+        left: 0%;
+        top: 0%;
+        color: aliceblue;
+    }
+}
+
+h3:hover {
+    background-color: rgb(0, 131, 44);
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 10;
+    animation-duration: 1s;
+    animation-iteration-count: repeat;
+}
+
+@-webkit-keyframes example {
+    0% {
+        background-color: rgb(0, 255, 106);
+        left: 0%;
+        top: 0%;
+    }
+    25% {
+        background-color: rgb(0, 255, 106);
+        left: 0%;
+        top: 0%;
+    }
+    50% {
+        background-color: rgb(7, 255, 90);
+        left: 0%;
+        top: 5%;
+    }
+    75% {
+        background-color: rgb(0, 248, 62);
+        left: 0%;
+        top: 0%;
+    }
+    100% {
+        background-color: rgb(0, 228, 133);
+        left: 0%;
+        top: 0%;
+        color: aliceblue;
+    }
+}
+
+img:hover {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
