@@ -1,0 +1,4 @@
+Hidden files> touch Karam.txt
+to display hiiden file> ls -a 
+1- echo "test1" > hello.txt  2- echo "test2" "test3" >> hello.txt
+wc -c....the name of the file
