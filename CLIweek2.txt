@@ -1,1 +1,23 @@
+karam@LAPTOP-KPMELL65 MINGW64 ~
+$ mkdir homework2
 
+karam@LAPTOP-KPMELL65 MINGW64 ~
+$ cd homework2/
+
+karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
+$ touch blank
+
+karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
+$ for i in {1..5}; do echo "hello!" >> greeting.txt;done
+
+karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
+$ cat greeting.txt > 1.txt > 2.txt > 3.txt > 4.txt > 5.txt
+
+karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
+$ echo "cat" "dogs" "hamsters" >> pets.txt
+
+karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
+$ echo "cat" "ls" "pwd" >> commands.txt
+
+karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
+$ sort -u commands.txt pets.txt  > lovelycommands.txt
