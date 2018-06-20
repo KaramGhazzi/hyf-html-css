@@ -20,4 +20,4 @@ karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
 $ echo "cat" "ls" "pwd" >> commands.txt
 
 karam@LAPTOP-KPMELL65 MINGW64 ~/homework2
-$ sort -u commands.txt pets.txt  > lovelycommands.txt
+cat commands.txt pets.txt | sort | uniq > lovelycommands.txt
