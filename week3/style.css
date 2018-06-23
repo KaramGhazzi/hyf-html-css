@@ -1,0 +1,226 @@
+    body {
+        margin: 0%;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    #header {
+        height: 15%;
+    }
+    
+    #logotype {
+        display: block;
+        clear: both;
+        margin-left: 50%;
+        width: 20%;
+        max-height: 20%;
+    }
+    
+    .dutchflag {
+        width: 60px;
+        position: absolute;
+    }
+    
+    .skyloops {
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        z-index: -1;
+        display: block;
+    }
+    
+    #navBar {
+        display: block;
+        height: 60%;
+    }
+    
+    .mainNav :link {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 18px;
+    }
+    
+    .mainNav :hover {
+        background-color: rgb(80, 135, 255);
+    }
+    
+    .loaded {
+        background-color: rgb(4, 83, 255);
+        width: 60%;
+        padding: 18px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        float: right
+    }
+    
+    .breadCrumbNav {
+        background-color: rgb(4, 83, 255);
+        float: left;
+        font-size: 25px;
+        padding: 14.7px;
+        width: 40%;
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        clear: both;
+    }
+    
+    .breadCrumbNav :link {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    .breadCrumbNav a:hover {
+        background-color: rgb(80, 135, 255);
+        padding: 15px 200px 15px 200px;
+    }
+    
+    .breadCrumbNav :visited {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    #searchForm {
+        float: right;
+        margin: 10px;
+    }
+    
+    .headerImage {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    
+    .topTaskNavigation {
+        width: 40%;
+        padding: 20px;
+    }
+    
+    .topTaskNavigation ul {
+        width: 50%;
+        margin: 100px 0px 0px 100px;
+        background-color: rgb(4, 83, 255);
+        font-size: 20px;
+        padding: 30px;
+    }
+    
+    .topTaskNavigation ul :link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .fourItems .navItem {
+        width: 25%;
+    }
+    
+    .wrapper .fourItems {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    
+    .fourItems {
+        height: 35%;
+        width: 100%-2%;
+        margin: 2%;
+        text-align: center;
+        border: 3px ridge black;
+        display: block;
+        background-color: rgb(4, 83, 255);
+        box-sizing: border-box;
+        overflow: auto;
+    }
+    
+    .fourItems:hover {
+        background-color: skyblue;
+    }
+    
+    .fourItems :link,
+     :visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .spotLight .brick {
+        width: calc(100%/3 - 10px);
+        margin: 5px;
+        border: 2px solid skyblue;
+        box-sizing: border-box;
+        padding: 3px;
+        text-align: center;
+        background-color: rgba(4, 83, 255);
+    }
+    
+    .fourItems:nth-child(1) {
+        background-color: red;
+    }
+    
+    .fourItems:nth-child(1):hover {
+        background-color: rgba(255, 0, 0, 0.473);
+    }
+    
+    .fourItems:nth-child(2) {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .fourItems:nth-child(2):hover {
+        background-color: rgba(135, 207, 235, 0.288);
+    }
+    
+    .content:nth-child(1) {
+        color: rgb(0, 0, 0);
+    }
+    
+    .spotLight .brick :link,
+     :visited {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .brick img {
+        width: 100%;
+    }
+    
+    .spotlight {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .brickRow h2 {
+        margin: 0 15px 20px 15px;
+        font-size: 1.625rem;
+        padding-top: 10px;
+        border-top: 1px solid #e1e1e1;
+        width: 100%;
+    }
+    
+    .nieuws {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .nieuws .brick {
+        width: calc(100%/3 - 10px);
+        border: 3px groove rgb(0, 162, 255);
+        box-sizing: border-box;
+        text-align: center;
+        margin: 5px;
+        background-color: rgba(4, 83, 255);
+    }
+    
+    .nieuws .brick:hover {
+        background-color: rgba(4, 84, 255, 0.356);
+    }
+    
+    .nieuws .brick :link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .banner {
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+    }
