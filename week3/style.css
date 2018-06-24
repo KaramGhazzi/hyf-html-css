@@ -483,4 +483,7 @@
         .languages {
             font-size: 10px;
         }
+        .nieuws .brick {
+            overflow: hidden;
+        }
     }
