@@ -37,7 +37,10 @@
     .mainNav :link {
         color: rgb(255, 255, 255);
         text-decoration: none;
-        padding: 18px;
+    }
+    
+    .loaded a {
+        padding: 12px;
     }
     
     .mainNav :hover {
@@ -107,11 +110,6 @@
     .breadCrumbNav :visited {
         color: rgb(255, 255, 255);
         text-decoration: none;
-    }
-    
-    #searchForm {
-        float: right;
-        margin: 10px;
     }
     
     .headerImage {
@@ -343,10 +341,14 @@
             font-size: 12px;
         }
         .topTaskNavigation ul {
-            width: 50%;
+            width: 60%;
             height: 50%;
             margin-top: 120px;
             margin-left: 10px;
+        }
+        .topTaskNavigation {
+            width: 50%;
+            padding: 3px;
         }
         .dutchflag {
             display: block;
@@ -409,4 +411,76 @@
         width: calc(100%/5);
         float: left;
         box-sizing: border-box;
+    }
+    
+    @media only screen and (max-width:720px) {
+        .copyright {
+            margin: 0;
+        }
+        .topTaskNavigation {
+            width: 50%;
+            padding: 3px;
+        }
+        .loaded a {
+            padding: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:320px) {
+        #search {
+            width: 60px;
+        }
+        .topTaskNavigation ul {
+            height: 60px;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .topTaskNavigation ul li {
+            width: 100%;
+            padding: 3px;
+            height: 40px;
+            font-size: 10px;
+        }
+        .informa p {
+            font-size: 14px;
+            height: 110px;
+        }
+        .inform p {
+            font-size: 14px;
+            height: 110px;
+        }
+        .spans {
+            font-size: 20px
+        }
+        .spa {
+            font-size: 20px;
+        }
+        .column ul {
+            padding: 0;
+        }
+        .column {
+            padding: 0;
+        }
+        .wa {
+            width: 100%;
+        }
+        .fourItems .navItem {
+            font-size: 10px;
+        }
+        .copyright {
+            color: #e1e1e100;
+        }
+        wrapper ul li {
+            width: calc(90%/5);
+            float: left;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        .wrapper ul {
+            padding: 10px 1px 10px 1px;
+            width: 90%;
+        }
+        .languages {
+            font-size: 10px;
+        }
     }
